@@ -1,19 +1,45 @@
-h1{
-    color: brown;
-}
-
-p{
-    color: yellow;
-}
-.main-text{
-
-    color: green;
-}
-
-.btn_link{
-    color: brown;
+*{
     text-decoration: none;
-    font-size: 26px;
-    font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+body{
+    background-color: grey;
+}
+
+
+.list_style_type{
+list-style-type: none;
+}
+
+.main_text_list{list-style-type: none;
+}
+
+
+.main_text_list ::after{
+   content: "45" ;
+   color: aqua;
+   font-size: 20px;
+}
+
+
+.container{
+    width: 80%;
+    
+    margin: 0 auto;
+    
+}
+
+.box_pading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_pading p{
+  background-color: aqua;
+  width: 20px;
+  padding: 20px;
+  margin: 10px;
+ 
+}
+
